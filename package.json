@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "publishConfig": {
-    "registry":"https://angelinavb.github.io/ajs/"
-  },"scripts": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
     "test": "",
-     "build": "webpack --mode production"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AngelinaVB/ajs.git"
+    "url": "git+https://github.com/AngelinaVB/ajs.git"
   },
   "author": "",
   "license": "ISC",
